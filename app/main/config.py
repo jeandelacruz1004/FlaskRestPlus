@@ -11,8 +11,8 @@ class Config:
 
 
 class DevelopmentConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost:5433/FlaskRestPlus'
     DEBUG = True
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost:5433/FlaskRestPlus'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
